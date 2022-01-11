@@ -28,9 +28,12 @@ const displayData = (obj) => {
     <div id="subcont" class="container">
    <div i> <span> Cat ID=</div>
    <div id="cat_id">${obj._id}</div>
-      <p class="para blue"> Created At=<span> ${obj.source}</span></p>
-       <p class="para blue"> Tags=<span> ${obj.type}</span></p>
-
+      <p class="para blue"> user=<span> ${obj.user}</span></p>
+       <p class="para blue"> text=<span> ${obj.text}</span></p>
+       <p class="para blue"> type=<span> ${obj.type}</span></p>
+       <p class="para blue"> deleted=<span> ${obj.deleted}</span></p>
+        <p class="para blue"> createdAt=<span> ${obj.createdAt}</span></p>
+              <p class="para blue"> updatedAt=<span> ${obj.updatedAt}</span></p>
         
     `;
 };
